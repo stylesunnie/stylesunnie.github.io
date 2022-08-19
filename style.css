@@ -1,3 +1,5 @@
+html, body {margin: 0; height: 100%; overflow: hidden}
+
 * {
   margin: 0;
   padding: 0;
@@ -16,8 +18,8 @@ body {
   min-height: 100%;
   text-align: center;
   padding: 30px;
-  padding-top: 50px;
-  background-color: #DFEFD0;
+  padding-top: 30px;
+  background-color: #ffffff;
 }
 
 #profile {
@@ -29,12 +31,11 @@ body {
 }
 
 .item {
-  padding: 8px;
+  padding: 2px;
   margin-bottom: 15px;
-  background-color: whitesmoke;
   display: flex;
   align-items: center;
-  border-radius: 100px;
+  border-radius: 15px;
   text-align: center;
 }
 
@@ -42,23 +43,39 @@ body {
   line-height: 46px;
   text-align: center;
   min-height: 46px;
+  background-color: transparent !important;
 }
 
 .platform-icon {
-  width: 46px;
-  height: 46px;
-  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  padding-left: 12px;
+  /* border-radius: 25%; */
 }
 
 .div-btn div {
   flex: 1;
-  color: #DFEFD0;
-  background-color: #084C3D;
+  color: #3c4f77;
+  background-color: #FFF7E8;
 }
 
 a {
   color: black;
   text-decoration: none;
+  background-color: transparent;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("./logo/bg.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* @media (max-width: 480px) {
